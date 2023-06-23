@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Character Counter</h1>
+    <div id="main">
+    <textarea id="txtarea" class="custom-textarea" cols="45" rows="8" oninput="wordCount(), letterCount()" placeholder="Enter text..."></textarea>
+    </div><br>
+    <div id="labels">
+    <label id="label-1">Total Word Count:</label>
+    <label id="showCount">0</label><br>
+    <label> Total Letter Count:</label>
+    <label id="showLetter">0</label><br>
+    </div>
+    <button id="de" onclick="deleteFunction()">Delete</button>
+</body>
+
+    <script src="script.js"></script>
+
+</html>

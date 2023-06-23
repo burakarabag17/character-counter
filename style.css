@@ -1,0 +1,77 @@
+body{
+    background: rgb(243, 244, 243);
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 55px;
+    color: #008080;
+}
+
+#main{
+    text-align: center;
+}
+
+#txtarea{
+    width: 650px;
+    height: 330px;
+    resize: none;
+    font-family: sans-serif;
+    color: #333333;
+    font-size: 23px;
+    border: solid 3.5px;
+    border-color: #333333;
+    border-radius: 4px;
+    background-color: #feffe7;
+    caret-color: #c2dcf3;
+
+}
+
+#txtarea::placeholder{
+    position: relative;
+    bottom: 5px;
+    font-size: 24px;
+    font-family: cursive;
+    color: #008080;
+}
+
+.custom-textarea{
+    padding: 12px;
+}
+
+#labels{
+    color: #008080;
+    font-size: 34px;
+    position: relative;
+    left: 432px;
+    top: 20px;
+    font-family: verdana;
+}
+
+#label-1, #showCount{
+    position: relative;
+    bottom: 7px;
+}
+
+#de{
+    color: #333333;
+    background-color: #c2dcf3;
+    position: relative;
+    left: 867px;
+    bottom: 55px;
+    height: 60px;
+    width: 200px;
+    font-size: 37px;
+    cursor: pointer;
+    font-family: Verdana;
+    border: solid 3.5px rgb(74, 70, 70);
+    border-radius: 18px;
+}
+
+#showLetter, #showCount{
+    color: #333333;
+    font-size: 33px;
+}
+
+
